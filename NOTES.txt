@@ -1,0 +1,25 @@
+FLEX CSS LAYOUTS!!!
+
+
+Outer container:
+
+display: flex;
+flex-direction: row or column (row default)
+
+justify-content: (this lets you evenly space or center or whatever the children of the
+flex container) -- space-between, center, etc...
+
+align-items: aligns along the cross axis (if in row mode, this means vertically)
+(if in column mode, this means horizontally)
+
+gap! This works like margins, adds gap between all children of the flex outer object
+
+
+FLEX CHILDREN:
+flex: (growth) (shrink) (flex-basis. Defaults to 0 but if in column mode, needs to be auto 
+to make sure that a defined height is used for empty objects. Same with a fixed width start)
+
+flex: 1 (common standard but could also just be flex-growth: 1)
+
+
+

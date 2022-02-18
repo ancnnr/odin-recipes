@@ -7,6 +7,7 @@
 .item-list {
     display: grid;
     grid-auto-columns: 25%;
+    row-gap: 5px;
     padding: 0px;
     text-align: center;
     color: ivory;
@@ -17,17 +18,19 @@
 .item-list li.odd{
     grid-column-start: 1;
     grid-column-end: 3;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .item-list li.even {
     grid-column-start: 3;
     grid-column-end: 5;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
+.item-list a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    font-size:x-large;
+}
 
 .outer-shell {
     padding:20px;
@@ -40,7 +43,6 @@
     text-align: center;
     margin:auto;
     background-color: #96a8ff;
-    border: 2px solid blue;
 }
 
 ul {
@@ -55,8 +57,14 @@ a:visited {
 
 a:hover {
     color: greenyellow;
+    background-color: darkgoldenrod;
+}
+
+a:active {
+    color: green;
 }
 
 a {
     color: lightgray;
+    text-decoration: none;
 }
