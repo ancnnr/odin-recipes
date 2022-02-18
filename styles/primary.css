@@ -1,8 +1,8 @@
-/*
+
 * {
-    border: 2px solid red;
+    box-sizing: border-box;
 }
-*/
+
 
 .item-list {
     display: grid;
@@ -11,7 +11,7 @@
     text-align: center;
     color: ivory;
     background-color: darkslategrey;
-    box-sizing: border-box;
+
 }
 
 .item-list li.odd{
